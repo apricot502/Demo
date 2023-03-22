@@ -10,7 +10,11 @@ git commit -m "日志信息" 文件名：提交文件到本地库，并写明日
 git reflog ：查看引用日志信息
 git log ：查看详细日志命令
 git reset --hard <版本号>：回到之前版本
-git branch <分支名>
+git branch <分支名> :创建分支
+git branch -v ：查看分支
+git checkout <分支名>:切换分支
+git merge <分支名>:把指定的分支合并到当前分支上。
+
 
 
 English
@@ -18,3 +22,5 @@ on branch master：当前本地库在master分支里面。
 no commits yet：说明目前还没有提交过东西。
 nothing to commit (create/copy files and use “git add” to track)：目前没有什么东西可以提交。
 Untracked files:未被追踪的文件
+
+fb_modfiy
