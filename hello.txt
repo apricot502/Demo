@@ -1,2 +1,20 @@
-Hello word??????
-hello again！
+git bash里面的命令和linux的命令是通用的！！！
+git init:初始化工作区
+ll: 查看当前路径文件，-A 查看隐藏文件
+cd <path>:切换路径
+git status ：查看本地库状态
+cat <文件名>:查看文件内容
+git add <文件名>：将文件加入到暂存区。
+git rm --cached <文件名>：删除暂存区文件
+git commit -m "日志信息" 文件名：提交文件到本地库，并写明日志
+git reflog ：查看引用日志信息
+git log ：查看详细日志命令
+git reset --hard <版本号>：回到之前版本
+git branch <分支名>
+
+
+English
+on branch master：当前本地库在master分支里面。
+no commits yet：说明目前还没有提交过东西。
+nothing to commit (create/copy files and use “git add” to track)：目前没有什么东西可以提交。
+Untracked files:未被追踪的文件
