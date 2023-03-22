@@ -16,6 +16,8 @@ git checkout <分支名>:切换分支
 git merge <分支名>:把指定的分支合并到当前分支上。
 git remote -v ：查询远程仓库别名
 git remote add <远程仓库别名> <远程仓库的HTTP>:为远程仓库添加别名
+git pull <远程仓库别名> <分支>：拉取远程库到本地库
+git push <远程仓库别名> <分支>：推送本地库到远程库
 
 English
 on branch master：当前本地库在master分支里面。
